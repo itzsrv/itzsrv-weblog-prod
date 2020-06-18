@@ -5,11 +5,13 @@
   "description": "gatsby-starter-chronoblog",
   "keywords": [],
   "license": "MIT",
+  "homepage": "https://itzsrv.github.io/itzsrv-weblog-prod",
   "author": "Saurav Singh",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.23.3",
@@ -17,6 +19,7 @@
     "gatsby-plugin-manifest": "^2.4.11",
     "gatsby-plugin-sitemap": "^2.2.21",
     "gatsby-theme-chronoblog": "^0.23.0",
+    "gh-pages": "^3.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
