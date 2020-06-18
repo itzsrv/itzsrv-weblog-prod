@@ -4,7 +4,6 @@
 <url> <loc>https://itzsrv.com/tags/post/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/project/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/notes/note-chronoblog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/git-commit-conventions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/eml-and-tpl/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/github-hosting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -12,6 +11,6 @@
 <url> <loc>https://itzsrv.com/os-is-must/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
