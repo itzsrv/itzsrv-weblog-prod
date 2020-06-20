@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Saurav Singh',
+    siteTitle: 'Personal Weblog | Saurav Singh',
     siteDescription: 'Personal Weblog',
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://itzsrv.com/',
@@ -8,7 +8,7 @@ module.exports = {
     siteLanguage: 'en',
     ogLanguage: `en_US`,
     author: 'Saurav Singh', // author name
-    authorDescription: 'software engineer by day, technology enthusiast by night', // short text about the author
+    authorDescription: 'software engineer by day, alot more by night', // short text about the author
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
