@@ -6,7 +6,7 @@ draft: false
 ---
 
 
-Following a convention for writing Git commit messages makes it easy for fellow contributors to understand and navigation through git history simple (e.g. ignoring style changes).
+Following a convention for writing Git commit messages makes it easy for fellow contributors to understand and navigating through git history becomes simple (for an example, ignoring all style changes).
 
 Format of the commit message:
 
