@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://itzsrv.com/tags/stories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/stand/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/tags/stories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/note/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/post/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/false-negatives/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/everythingindiapro/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/false-negatives/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/git-commit-conventions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/eml-and-tpl/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/github-hosting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/linux-terminal-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/os-is-must/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/social-stand/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/stand/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/stories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
