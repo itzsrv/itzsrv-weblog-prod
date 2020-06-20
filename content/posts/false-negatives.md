@@ -1,8 +1,6 @@
 ---
 title: The Survivorship Bias - "Impact of False Negatives"
-cover: ./image.jpg
 date: 2020-06-20
-
 tags: ['stories']
 draft: false
 ---
@@ -10,7 +8,7 @@ draft: false
 
 ##### A good read to understand the impact of false negatives:
 
-During _World War II_, numerous fighter planes were getting hit by anti-aircraft guns. 
+During World War II, numerous fighter planes were getting hit by anti-aircraft guns. 
 
 Air Force officers wanted to add some protective armor/shield to the planes. The question was "where"?
 
@@ -29,12 +27,13 @@ His judgement surprised everyone. He said, _"We are counting the planes that ret
 If you go to the recovery room at the hospital, you’ll see a lot more people with bullet holes in their legs than people with bullet holes in their chests. That’s not because people don’t get shot in the chest, it’s because the people who get shot in the chest don’t recover.
 
 A quote from Albert Einstein: 
->Not everything that counts can be counted, and not everything that can be counted, counts.
+_Not everything that counts can be counted, and not everything that can be counted, counts._
 
----
+>
 ##### Sources: 
-From the book - "How Not To Be Wrong", by Jordan Ellenberg.
-
+>
+From the book: "How Not To Be Wrong", by Jordan Ellenberg.
+>
 More on Survivorship Bias:
 [https://en.wikipedia.org/wiki/Survivorship_bias](https://en.wikipedia.org/wiki/Survivorship_bias)
 
