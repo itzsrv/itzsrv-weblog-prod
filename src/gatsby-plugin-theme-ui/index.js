@@ -21,7 +21,7 @@ export default {
       }
     }
   },
-  fontSizes: [14, 16, 18, 18, 18, 24, 22, 22],
+  fontSizes: [14, 14, 18, 18, 18, 24, 22, 22],
   borderRadius: {
     ...chronoblogTheme.borderRadius,
     card: 6,
