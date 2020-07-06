@@ -98,8 +98,6 @@ Here, js will automatically convert the age from a number data type to a string 
 This is the [Operator Precedence Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence) by Mozilla Developer Network. In the table, higher value attributes to higher precedence.
 
 
----
-
 
 <!--- 
 
