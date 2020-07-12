@@ -1,7 +1,7 @@
 ---
 title: Java Memory Model and Garbage Collection
 cover: ./java-6.jpg
-date: 2020-07-06
+date: 2020-07-12
 description: 
 tags: ['post', 'java']
 draft: false
@@ -14,7 +14,7 @@ draft: false
 
 #### Heap Memory
 
-This is the place where objects live. Prior to Java 8, we have Permanent Generation also as part of Heap. But Java 8 onwards, this has been replaced with non-heap memory named as MetaSpace. After Java 8, Heap Space is divided into below two parts:
+This is the place where objects live. Prior to Java 8, we have Permanent Generation also as part of Heap. But Java 8 onwards, this has been replaced with a non-heap memory named as MetaSpace. After Java 8, Heap Space is divided into below two parts:
 
 - #### Young Generation
 The young generation is the place where all the new objects are created. When the young generation is filled, garbage collection is performed. This garbage collection is called Minor GC. Young Generation is divided into three parts – **Eden and two Survivor(S1, S2) Memory Spaces**.
@@ -59,11 +59,11 @@ This memory is used for execution of a thread and it contains method specific va
 
 Unlike languages like C, C++, where developers have to take care of the memory management of their programs on their own, Java has feature of automatic memory management, called as **Garbage Collection**. 
 
-Its a thread running in the background that looks into all the objects in the memory and find out objects that are not referenced by any part of the program. All these unreferenced objects are marked and deleted and space is reclaimed for allocation to other objects.
+Its a thread running in background that looks into all the objects in memory and find out that are not referenced by any part of the program to mark them for GC. All these marked Objects are deleted, and the space is reclaimed for allocation to other objects.
 
-Garbage Collection is Generational and we have **Young Generation**, where it is being referred to as minor Garbage Collection and **Old Generation**, where the full Garbage Collection happens.
+Garbage Collection is Generational, in **Young Generation**, minor Garbage Collection runs and in **Old Generation**, the full Garbage Collection runs.
 
-Full Garbage collection is more expensive in terms of resources, as deleting live objects from Old Generation requires more efforts and is slow, compared to deleting unreferenced objects from Young Generation.
+Full Garbage collection is more expensive in terms of resources, as deleting live objects from Old Generation requires more efforts and is slower, compared to deleting unreferenced objects from Young Generation. Therefore full GC's are **“Stop the World”** events because all application threads are stopped until the operation completes.
 
 #### Garbage Collection Types
 
@@ -71,15 +71,19 @@ There are five types of garbage collection that we can use in our applications. 
 
 - **Serial GC (-XX:+UseSerialGC):** Serial GC uses the simple mark-sweep-compact approach for young and old generations garbage collection i.e Minor and Major GC.Serial GC is useful in client machines such as our simple stand-alone applications and machines with smaller CPU. It is good for small applications with low memory footprint.
 
-- **Parallel GC (-XX:+UseParallelGC):** Parallel GC is same as Serial GC except that is spawns N threads for young generation garbage collection where N is the number of CPU cores in the system. We can control the number of threads using -XX:ParallelGCThreads=n JVM option.Parallel Garbage Collector is also called throughput collector because it uses multiple CPUs to speed up the GC performance. Parallel GC uses a single thread for Old Generation garbage collection.
+- **Parallel GC (-XX:+UseParallelGC):** Parallel GC is same as Serial GC except that is spawns N threads for young generation garbage collection where N is the number of CPU cores in the system. We can control the number of threads using -XX:ParallelGCThreads=n JVM option. Parallel Garbage Collector is also called throughput collector because it uses multiple CPUs to speed up the GC performance. Parallel GC uses a single thread for Old Generation garbage collection.
 
 - **Parallel Old GC (-XX:+UseParallelOldGC):** This is same as Parallel GC except that it uses multiple threads for both Young Generation and Old Generation garbage collection.
 
 - **Concurrent Mark Sweep (CMS) Collector (-XX:+UseConcMarkSweepGC):** CMS Collector is also referred as concurrent low pause collector. It does the garbage collection for the Old generation. CMS collector tries to minimize the pauses due to garbage collection by doing most of the garbage collection work concurrently with the application threads.CMS collector on the young generation uses the same algorithm as that of the parallel collector. This garbage collector is suitable for responsive applications where we can’t afford longer pause times. We can limit the number of threads in CMS collector using -XX:ParallelCMSThreads=n JVM option.
 
-- **G1 Garbage Collector (-XX:+UseG1GC):** The Garbage First or G1 garbage collector is available from Java 7 and its long term goal is to replace the CMS collector. The G1 collector is a parallel, concurrent, and incrementally compacting low-pause garbage collector.Garbage First Collector doesn’t work like other collectors and there is no concept of Young and Old generation space. It divides the heap space into multiple equal-sized heap regions. When a garbage collection is invoked, it first collects the region with lesser live data, hence “Garbage First”. You can find more details about it at Garbage-First Collector Oracle Documentation.
-
-Full Garbage Collections are **“Stop the World”** events because all application threads are stopped until the operation completes.
+- **G1 Garbage Collector (-XX:+UseG1GC):** The Garbage First or G1 garbage collector is available from Java 7 and its long term goal is to replace the CMS collector. The G1 collector is a parallel, concurrent, and incrementally compacting low-pause garbage collector. Garbage First Collector doesn’t work like other collectors and there is no concept of Young and Old generation space. It divides the heap space into multiple equal-sized heap regions. When a garbage collection is invoked, it first collects the region with lesser live data, hence “Garbage First”. You can find more details about it at Garbage-First Collector Oracle Documentation.
 
 Below is a brief overview of Hotspot JVM Architecture:
+
 ![java-hotspot](./java-hotspot.png)
+
+Few Important Resources that can be checked out:
+
+[Oracle JavaSE VM Options](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
+[Oracle JVM Troubleshooting Memory](https://www.oracle.com/webfolder/technetwork/tutorials/mooc/JVM_Troubleshooting/week1/lesson1.pdf)
