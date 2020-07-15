@@ -1,6 +1,5 @@
 ---
 title: An Overview of Java 8
-cover: ./java.jpg
 date: 2020-07-15
 description: Java 8 Enhancements and New Features
 tags: ['post','java']
