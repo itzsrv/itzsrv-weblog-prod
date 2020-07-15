@@ -1,7 +1,7 @@
 ---
 title: What are .eml and .tpl files and how to handle them
 date: 2020-05-29
-tags: ['note','post']
+tags: ['note']
 draft: false
 ---
 

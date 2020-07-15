@@ -56,6 +56,6 @@ Select the branch gh-pages, then open Settings from top right corner and navigat
 
 Provide the registered custom domain where you want to host your website, and you are good to go!  
 
-One advantage of hosting on Github Pages over other hosting platforms is that Github provides free SSL-Certificate for hosted site.
+One advantage of hosting on Github Pages over other hosting platforms is that Github provides free SSL-Certificate for its hosted site.
 
 

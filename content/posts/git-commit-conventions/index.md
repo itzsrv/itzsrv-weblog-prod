@@ -1,7 +1,7 @@
 ---
 title: Git Commit Message Conventions
 date: 2020-05-30
-tags: ['note','post']
+tags: ['note']
 draft: false
 ---
 
