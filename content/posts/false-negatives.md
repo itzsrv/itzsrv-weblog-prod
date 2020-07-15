@@ -1,7 +1,7 @@
 ---
 title: The Survivorship Bias - "Impact of False Negatives"
 date: 2020-06-20
-tags: ['stories']
+tags: ['story']
 draft: false
 ---
 
