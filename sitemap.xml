@@ -7,6 +7,7 @@
 <url> <loc>https://itzsrv.com/tags/stories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/note/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/java8-features/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/java-memory-model/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/intro-to-js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/everythingindiapro/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -17,9 +18,9 @@
 <url> <loc>https://itzsrv.com/linux-terminal-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/os-is-must/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/stand/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/stories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/stand/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
