@@ -1,6 +1,5 @@
 ---
-title: Linux Terminal Tips for Devs
-cover: ./image.jpg
+title: Linux Terminal Tips for Dev
 date: 2020-05-24
 description: Tips to enhance productivity while using Linux Terminals
 tags: ['post']
