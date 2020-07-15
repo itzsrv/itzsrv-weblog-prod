@@ -1,7 +1,6 @@
 ---
 title: Importance of Operating System Knowledge!
 date: 2020-02-08
-cover: ./image.jpg
 tags: ['note']
 ---
 
