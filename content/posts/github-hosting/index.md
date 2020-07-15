@@ -3,7 +3,7 @@ title: Hosting static sites with Github Pages
 cover: ./images.png
 date: 2020-05-25
 description: All the usual blog post.
-tags: ['post', 'link']
+tags: ['post']
 draft: false
 ---
 

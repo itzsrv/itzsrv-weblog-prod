@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Personal Weblog | Saurav Singh',
+    siteTitle: 'Saurav Singh | Personal Weblog',
     siteDescription: 'Personal Weblog',
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://itzsrv.com/',
