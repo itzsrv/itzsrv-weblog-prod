@@ -3,7 +3,7 @@ title: EverythingIndiaPro
 date: 2020-06-20
 description: A pro-India movement, and mass awareness initiative in the wake of recent strike on our Nation!
 tags: ['stand']
-draft: false
+draft: true
 ---
 
 This is a pro-India movement and mass survey of citizens about their take and contribution in building our nation. In the wake of recent strikes on our military, as a citizen, we must acknowledge the fact that we also play a vital role in shaping the future of our nation. And, this is a small initiative to create awareness about our enemies those have threatened us times and again on issues of national border.

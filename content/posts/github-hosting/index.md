@@ -1,7 +1,7 @@
 ---
 title: Hosting static sites with Github Pages
 date: 2020-05-25
-description: All the usual blog post.
+description: Host freely on GitHub Pages with free SSL Certificate.
 tags: ['post']
 draft: false
 ---
