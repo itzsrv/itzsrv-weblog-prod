@@ -1,5 +1,5 @@
 ---
-title: What are .eml and .tpl files and how to handle them
+title: What are EML and TPL files
 date: 2020-05-29
 tags: ['note']
 draft: false
@@ -9,7 +9,7 @@ draft: false
 
 File with extension .eml, is a complete email message saved in raw message format, by an email-client such as Microsoft Outlook or Apple Mail. It contains the content of the message, along with the subject, sender, recipient(s), and date of the message. It can also have email attachments, which are files sent with the message.
 
-Although modern web-clients like Mozilla or Chrome have direct support for it, but you can change the .eml file extension to .mht and open it directly in any web client. Else, convert it to .txt extension and now you can open it in any text editor.
+Although modern web-clients like Mozilla or Chrome have direct support for it, but you can change the .eml file extension to .mht and open it directly in any web client. Else, convert it to .txt extension and then you can open it in any text editor.
 
 **.tpl files** 
 

@@ -1,12 +1,12 @@
 ---
 title: Git Commit Message Conventions
 date: 2020-05-30
-tags: ['note']
+tags: ['post']
 draft: false
 ---
 
 
-Following a convention for writing Git commit messages makes it easy for fellow contributors to understand and navigating through git history becomes simple (for an example, ignoring all style changes).
+Following a convention for writing Git commit messages makes it easy for fellow contributors to understand, and navigating through git history becomes simple (for an example, ignoring all style changes).
 
 Format of the commit message:
 
