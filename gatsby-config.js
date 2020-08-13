@@ -79,6 +79,12 @@ module.exports = {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: 'UA-XXXXXXXXX-X'
       }
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `itzsrv`
+      }
     }
   ]
 };
