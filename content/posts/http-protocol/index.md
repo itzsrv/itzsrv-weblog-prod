@@ -1,7 +1,7 @@
 ---
 title: Gelling up with HTTP and Internet Protocol Suite (TCP/IP)
 cover: 
-date: 2020-08-08
+date: 2020-08-01
 description: 
 tags: ['post']
 draft: false
