@@ -1,5 +1,5 @@
 ---
-title: Gelling up with HTTP and Internet Protocol Suite (TCP/IP)
+title: Brief insights about HTTP and Internet Protocol Suite (TCP/IP)
 cover: 
 date: 2020-08-01
 description: 
@@ -17,7 +17,7 @@ Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989. Developmen
 
 [Roy Fielding](https://roy.gbiv.com) maintains the IETF working group list of HTTP RFCs and Internet Drafts. For in-depth reference of HTTP1.1, refer [RFC 7230](https://tools.ietf.org/html/rfc7230) family (RFC 7230-7235).
 
-HTTP versions and corresponding RFPs
+HTTP versions and corresponding RFCs
  - HTTP v1.0    [RFC 1945](https://tools.ietf.org/html/rfc1945)
  - HTTP v1.1    [RFC 2616](https://tools.ietf.org/html/rfc2616)    
  - HTTP v1.1    [RFC 7230](https://tools.ietf.org/html/rfc7230), [RFC 7231](https://tools.ietf.org/html/rfc7231), [RFC 7232](https://tools.ietf.org/html/rfc7232),  [RFC 7233](https://tools.ietf.org/html/rfc7233), [RFC 7234](https://tools.ietf.org/html/rfc7234), [RFC 7235](https://tools.ietf.org/html/rfc7235)
