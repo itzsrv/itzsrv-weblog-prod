@@ -1,5 +1,5 @@
 ---
-title: Git Commit Message Conventions
+title: Message Conventions for Git Commits
 date: 2020-05-30
 tags: ['post']
 draft: false
