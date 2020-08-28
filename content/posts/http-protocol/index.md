@@ -25,7 +25,7 @@ HTTP versions and corresponding RFCs
  - HTTP/3   [Proposed Internet Draft v29](https://tools.ietf.org/html/draft-ietf-quic-http-29)       
 
 >
-##### Sources: 
+##### References: 
 >
 - [IETF Tools | Internet Engineering Task Force](https://tools.ietf.org)
 - [https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)

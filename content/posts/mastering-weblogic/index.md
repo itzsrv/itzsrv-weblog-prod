@@ -3,7 +3,7 @@ title: Mastering Oracle WebLogic Application Server
 cover: ./oracle.jpg
 date: 2020-08-08
 description: 
-tags: ['post','java']
+tags: ['post','java','server']
 draft: false
 ---
 
@@ -115,7 +115,7 @@ Admin must know some of the WebLogic server tools such as WebLogic server admin 
 Additionally, WebLogic Server supports applications developed using the [Spring Framework](http://www.springsource.org/), an open source application framework for the Java platform. [Developing and Administering Spring Applications for Oracle WebLogic Server](https://docs.oracle.com/middleware/1213/wls/SPRNG/toc.htm) provides an overview of Spring and WebLogic Server support for developing and deploying Spring applications. 
 
 >
-##### Sources: 
+##### References: 
 >
 - [Oracle WebLogic Server Documentation](https://www.oracle.com/in/middleware/technologies/weblogic.html)
 >

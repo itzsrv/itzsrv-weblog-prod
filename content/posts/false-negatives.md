@@ -30,7 +30,7 @@ A quote from Albert Einstein:
 _Not everything that counts can be counted, and not everything that can be counted, counts._
 
 >
-##### Sources: 
+##### References: 
 >
 From the book: "How Not To Be Wrong", by Jordan Ellenberg.
 >

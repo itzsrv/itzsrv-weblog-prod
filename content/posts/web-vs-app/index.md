@@ -3,7 +3,7 @@ title: Web Server vs Application Server
 cover: 
 date: 2020-08-02
 description: 
-tags: ['post']
+tags: ['post','server']
 draft: false
 ---
 

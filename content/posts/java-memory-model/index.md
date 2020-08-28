@@ -82,7 +82,7 @@ Some features of Java HotSpot technology, common to both VM implementations, are
 
 
 >
-##### Sources: 
+##### References: 
 >
 - Orcale JDK Documentations
 >

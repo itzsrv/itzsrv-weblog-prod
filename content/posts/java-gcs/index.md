@@ -83,7 +83,7 @@ There are some tools that can be used for GC aid:
 - TerraCotta Big Memory
 
 >
-##### Sources: 
+##### References: 
 >
 - Orcale JDK Documentations
 >
