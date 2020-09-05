@@ -8,7 +8,7 @@ module.exports = {
     siteLanguage: 'en',
     ogLanguage: `en_US`,
     author: 'Saurav Singh', // author name
-    authorDescription: 'software engineer by day, alot more by night', // short text about the author
+    authorDescription: 'software engineer by day, open source contributor by night', // short text about the author
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter

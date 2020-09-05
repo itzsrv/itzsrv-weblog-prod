@@ -1,8 +1,8 @@
 {
-  "name": "chronoblog",
+  "name": "itzsrv",
   "version": "1.21.0",
   "private": true,
-  "description": "gatsby-starter-chronoblog",
+  "description": "personal-blog",
   "keywords": [],
   "license": "MIT",
   "homepage": "https://itzsrv.github.io/itzsrv-weblog-prod",
