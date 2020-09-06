@@ -1,8 +1,8 @@
 ---
 title: What are EML and TPL files
 date: 2020-05-29
-tags: ['note']
-draft: true
+tags: ['post']
+draft: false
 ---
 
 **.eml files** 
