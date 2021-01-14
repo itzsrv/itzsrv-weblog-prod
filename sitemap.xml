@@ -3,13 +3,16 @@
 <url> <loc>https://itzsrv.com/tags/post/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/java/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/server/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/tags/database/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/story/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/note/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/notes/posix/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/notes/os-knowhow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/javabean-vs-ejb/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/java-web-master-ref/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/servers-on-housing-architecture/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/db-concepts-with-oracle/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/mastering-weblogic/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/web-vs-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/http-protocol/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -22,11 +25,12 @@
 <url> <loc>https://itzsrv.com/eml-and-tpl/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/github-hosting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/linux-terminal-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/ssl-keystore-cert/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/cv/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/pledge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/story/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://itzsrv.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://itzsrv.com/travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://itzsrv.com/pledge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
