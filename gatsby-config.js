@@ -28,6 +28,10 @@ module.exports = {
       {
         icon: `instagram`,
         url: `https://instagram.com/itzsrv`
+      },
+      {
+        icon: `linkedin`,
+        url: `https://www.linkedin.com/in/itzsrv`
       }
     ]
   },

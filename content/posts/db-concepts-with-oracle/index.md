@@ -3,17 +3,17 @@ title: Database Concepts and Oracle DB Terminologies
 cover:
 date: 2020-09-05
 description: Everything you need to know to work on a Database
-tags: ['post','database']
+tags: ['post', 'database']
 draft: false
 ---
 
 #### What is Database Schema?
 
-In its true sense, it defines any kind of structure that we are defining around the data. This could include tables, views, fields, relationships, packages, procedures, indexes, functions, types, sequences, materialized views, queues, triggers, synonyms, database links, directories, xml schemas and other elements. A database generally stores its schema in a data dictionary. 
+In its true sense, it defines any kind of structure that we are defining around the data. This could include tables, views, fields, relationships, packages, procedures, indexes, functions, types, sequences, materialized views, queues, triggers, synonyms, database links, directories, xml schemas and other elements. A database generally stores its schema in a data dictionary.
 
 This structure helps us in understanding the data, that would otherwise take up a lot of time and efforts in finding the head and tail of the data. This structure and its corresponding data relationship is called **Schema** of the database.
 
-The application of this structure is something that is specific to Database Vendors. For example, there are unstructured data stores which apply schema only when the data is read. In other words, data lives in juggled state, and we apply the structure to thequery code, called as **Schema On Read**. On the otherhand there are Databases which force structure as a condition before data gets written, called as **Schema On Write**.
+The application of this structure is something that is specific to Database Vendors. For example, there are unstructured data stores which apply schema only when the data is read. In other words, data lives in juggled state, and we apply the structure to the query code, called as **Schema On Read**. On the otherhand there are Databases which force structure as a condition before data gets written, called as **Schema On Write**.
 
 The method of how a schema gets designed can influence different behaviours in a database, for example if a database schema is designed as a series of tables connected by primary keys, then it is likely something designed for reading and writing singular records which is ideal for applications focused on transaction-oriented tasks also known as **Online Transactional Processing (OLTP)**.
 
@@ -30,15 +30,13 @@ The account that is created and used to connect to a database is called User. Th
 You create users with the create user statement. This also "creates" the schema (initially empty) - you cannot create a schema as such, it is tied to the user. Once the user is created, an administrator can grant privileges to the user, which will enable it to create tables, execute select queries, insert, and everything else.
 You can create a database with the create database statement, once you've installed the Oracle software stack.
 
-  - The `CREATE USER` command creates a user. It also automatically creates a schema for that user.
+- The `CREATE USER` command creates a user. It also automatically creates a schema for that user.
 
-  - The `CREATE SCHEMA` command does not create a "schema" as it implies, it just allows you to create multiple tables and views and perform multiple grants in your own schema in a single transaction.
+- The `CREATE SCHEMA` command does not create a "schema" as it implies, it just allows you to create multiple tables and views and perform multiple grants in your own schema in a single transaction.
 
 Furthermore, a user can access objects in schemas other than their own, if they have permission to do so.
 
->
-Think of a user as you normally do (username/password with access to log in and access some objects in the system) and a schema as the database version of a user's home directory. User "foo" generally creates things under schema "foo" for example, if user "foo" creates or refers to table "bar" then Oracle will assume that the user means "foo.bar".
-
+> Think of a user as you normally do (username/password with access to log in and access some objects in the system) and a schema as the database version of a user's home directory. User "foo" generally creates things under schema "foo" for example, if user "foo" creates or refers to table "bar" then Oracle will assume that the user means "foo.bar".
 
 **The Hierarchy in Oracle vs MS SQL Server**
 
@@ -95,15 +93,15 @@ OBJECT_ID OBJECT_NAME
 45709 BP
 45710 BP_PK
 
-SQL> select username, schemaname 
-2 from v$session 
+SQL> select username, schemaname
+2 from v$session
 3 where sid in (select sid from v$mystat)
 4 /
 USERNAME SCHEMANAME
 --------- -----------
 A B
 
-SQL> 
+SQL>
 ```
 
 Another example:
@@ -176,13 +174,59 @@ TABLE_NAME
 T1
 T2
 
-SQL> 
-```
+SQL>
+```   
+---
+
+#### What are Database Objects?
+
+Oracle Database recognizes objects that are associated with a particular schema and objects that are not associated with a particular schema, as described in the sections that follow.
+
+- **Schema Objects**
+
+  A schema is a collection of logical structures of data, or schema objects. A schema is owned by a database user and has the same name as that user. Each user owns a single schema. Schema objects can be created and manipulated with SQL and include the following types of objects:
+
+  Clusters  
+Constraints  
+Database links  
+Database triggers  
+Dimensions  
+External procedure libraries
+Index-organized tables  
+Indexes  
+Indextypes
+Java classes, Java resources, Java sources  
+Materialized views  
+Materialized view logs  
+Object tables  
+Object types  
+Object views  
+Operators  
+Packages  
+Sequences  
+Stored functions, stored procedures  
+Synonyms  
+Tables  
+Views
+
+- **Nonschema Objects**
+
+  Other types of objects are also stored in the database and can be created and manipulated with SQL but are not contained in a schema:
+
+  Contexts  
+Directories  
+Parameter files (PFILEs) and server parameter files (SPFILEs)  
+Profiles  
+Roles  
+Rollback segments  
+Tablespaces  
+Users
 
 >
-##### References: 
+##### References:
 >
 - [Orcale Documentations](https://docs.oracle.com/database/121/CNCPT/intro.htm#CNCPT939)
->
-Few More Important Resources that can be checked out:
-   - [Oracle Glossary](https://docs.oracle.com/database/121/CNCPT/glossary.htm#CNCPT89131)
+  > 
+  Few More Important Resources that can be checked out:
+  - [Oracle Glossary](https://docs.oracle.com/database/121/CNCPT/glossary.htm#CNCPT89131)
+  - [Database Objects](https://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements007.htm)

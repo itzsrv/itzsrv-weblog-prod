@@ -7,7 +7,7 @@ tags: ['post','java']
 draft: false
 ---
 
-Unlike languages like C, C++, where developers have to take care of memory management of their programs on their own, Java has feature of **automatic memory management**, called as **Garbage Collection**. 
+Unlike languages like C or C++, where developers have to take care of memory management of their programs on their own, Java has feature of **automatic memory management**, called as **Garbage Collection**. 
 
 It's a thread running in background that looks into memory and finds out those objects that are not referenced anymore by any part of the program. These unreferenced Objects are deleted, and the space is reclaimed for allocation to other objects.
 
