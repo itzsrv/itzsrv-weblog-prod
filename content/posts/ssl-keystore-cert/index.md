@@ -1,7 +1,7 @@
 ---
 title: SSL, Certificates and Keystores
 cover: ./image.jpg
-date: 2019-12-22
+date: 2021-01-14
 description: Walkaround of SSL, Certificates, Keystores and Configuring WebLogic Application Server to use Custom Keystores
 tags: ['post', 'server']
 draft: false
