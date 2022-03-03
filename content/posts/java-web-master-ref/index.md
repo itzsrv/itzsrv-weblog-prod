@@ -4,7 +4,7 @@ cover: ./java-ee.png
 date: 2020-10-16
 description: Reference for Java Enterprise Edition and Web Components
 tags: ['post']
-draft: false
+draft: true
 ---
 
 ## Enterprise Design Patterns
@@ -67,8 +67,7 @@ Things are fairly simple when all the web app components (model, view, controlle
 **But, the big question is what to do when model components are remote to the web app?**
 
 Java and J2EE provide mechanisms that handle two of the most common difficulties that arise when objects need to communicate across a network locating remote objects, and handling all the low level network/IO communications between local and remote objects.  
-(In other words, how to find remote objects, and how to invoke their methods.)  
-
+(In other words, how to find remote objects, and how to invoke their methods.)
 
 - JNDI, and
 - RMI
@@ -160,13 +159,3 @@ A 6-step review:
 4. Add the bean’s reference to the request.
 5. The controller forwards to the View JSP. The JSP gets the reference to the Customer Transfer Object bean from the request object.
 6. The View JSP uses EL to get the Customer Transfer Object Bean’s properties it needs to satisfy the original request.
-
----
-
-Websites like Reddit, StackOverflow, and GitHub had millions of people using Markdown. And Markdown started to be used beyond the web, to author books, articles, slide shows, letters, and lecture notes.
-
-What distinguishes Markdown from many other lightweight markup syntaxes, which are often easier to write, is its readability. As Gruber writes:
-
-> The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
-
->To be added soon!

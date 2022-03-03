@@ -48,7 +48,7 @@ We have Identity Store and Trust Store.
 1. Identity Store
    Identity Store holds the private key and the digital certificates or commonly called as server certificates.
 
-2) Trust Store
+2. Trust Store
    Trust Store holds Certification Authorities Trust Certificate. These can be Root or Intermediate Certificate in the certificate chain.
 
 We can store private key, server certificates and trust certificates in a single store, but its advisable to use different key stores for identity and trust in the production environments, because these have different security requirements.
@@ -63,17 +63,17 @@ Oracle provides an Enterprise Manager, popularly known as EM Cosole for managing
 
 After logging into the EM Console, keystore can be found under Security section in the WebLogic Domain. In the Keystore, some demo keystores are already provided under system stripe. A stripe is a unique reference that hold your keystores. To create a keystore, keystore name along with some other inputs are required. In the same manner, two keystores can be created, one for the Identity and the other for Trust.
 
-![image-in-post1](./image-in-post.jpg)
+![image-in-post1](./image-in-post1.png)
 
 After creating a keystore, we need to create a key-pair for that keystore. A key-pair is a public-private key combination, signed with a certification authority.
 
-![image-in-post3](./image-in-post.jpg)
+![image-in-post3](./image-in-post3.png)
 
-![image-in-post4](./image-in-post.jpg)
+![image-in-post4](./image-in-post4.png)
 
 After creating a key-pair, we need to generate a csr for the key-pair. A csr is a Certificate Signing Request which is sent to a third party Certification Authority. This csr can be copied or exported to a text file to be sent to a CA.
 
-![image-in-post5](./image-in-post.jpg)
+![image-in-post5](./image-in-post5.png)
 
 Once the certificate is verified by the CA, it issues two things:
 
@@ -82,7 +82,7 @@ Once the certificate is verified by the CA, it issues two things:
 
 The Root Certificate should be imported to the Truststore, and the Digital Server Certificate should be imported in the Identity Store.
 
-Let's have a look into achieving the same thing from command-line using java keytool.
+#### Let's have a look into achieving the same thing from command-line using java keytool:
 
 Keytool is an utility that comes along with your jdk and can be used to create and manage jks based keystore. We can use the following command to create a keystore and a key-pair for it in one go:
 
@@ -106,7 +106,7 @@ keytool -importcert -file mycert.pem -alias testAlias -keystore testKeystore.jks
 
 From the WebLogic Admin Console's Homepage, navigate to the Server for which Custom Keystore has to be configured. Click on the tab **Keystores** under **Configuration**.
 
-![image-in-post6](./image-in-post.jpg)
+![image-in-post6](./image-in-post6.png)
 
 Here, the details of the Custom Keystore and Truststore has to be provided.
 
