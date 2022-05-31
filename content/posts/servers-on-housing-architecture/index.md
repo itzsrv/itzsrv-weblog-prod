@@ -4,7 +4,7 @@ cover: ./image.jpg
 date: 2020-09-06
 description: 
 tags: ['post','server']
-draft: false
+draft: true
 ---
 
 #### Tower Servers 

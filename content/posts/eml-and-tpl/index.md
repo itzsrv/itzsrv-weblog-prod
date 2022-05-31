@@ -2,7 +2,7 @@
 title: What are EML and TPL files
 date: 2020-05-29
 tags: ['post']
-draft: false
+draft: true
 ---
 
 **.eml files** 

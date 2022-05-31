@@ -4,7 +4,7 @@ cover:
 date: 2020-09-05
 description: Everything you need to know to work on a Database
 tags: ['post', 'database']
-draft: false
+draft: true
 ---
 
 #### What is Database Schema?
